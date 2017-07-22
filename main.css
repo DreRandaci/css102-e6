@@ -1,0 +1,37 @@
+
+/*--CARD STYLES--*/
+
+.product {
+	width: 400px;
+	border: 2px solid slategray;
+}
+
+/* the max width is set to 100% of it's parent element */
+.image img {
+	max-width: 100%;
+	border-top: 1px solid gray;
+	border-bottom: 1px solid gray;
+
+}
+
+.description * {
+	text-align: center;
+	margin: 0;
+}
+
+
+.description {
+	padding: 2%; 
+}
+
+.description h6 {
+	font-size: 1.2em;
+	padding: 2%;
+}
+
+.title {
+	text-align: center;
+	text-transform: uppercase;
+	font-family: 'Nunito', sans-serif;
+}
+
